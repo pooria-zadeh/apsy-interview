@@ -42,18 +42,21 @@ const userReducer = (state: IUserReducer, action: Actions): IUserReducer => {
       return {
         ...state,
         loading: true,
+        error: '',
       };
     case 'UserFetched':
       return {
         ...state,
         user: action.user,
         loading: false,
+        error: '',
       };
     case 'UserListFetched':
       return {
         ...state,
         users: action.users,
         loading: false,
+        error: '',
       };
     case 'Error':
       return {

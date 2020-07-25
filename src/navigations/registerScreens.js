@@ -3,8 +3,8 @@ import {Navigation} from 'react-native-navigation';
 
 import * as navigationKeys from './navigationKeys';
 
-import UserDetailScreen from '../screens/UserDetailScreen';
-import UserListScreen from '../screens/UserListScreen';
+import UserDetailScreen from '../screens/user-detail/UserDetailScreen';
+import UserListScreen from '../screens/user-list/UserListScreen';
 
 import ThemeProvider from '../styles/ThemeProvider';
 
