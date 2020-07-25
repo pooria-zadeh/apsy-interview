@@ -1,5 +1,6 @@
 export default {
-  notes: 'Notes',
-  note: 'Note',
-  read: 'Read',
+  contactInfo: 'Contact Information',
+  otherInfo: 'Other Information',
+  username: 'User Name',
+  website: 'Website',
 };

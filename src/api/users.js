@@ -11,3 +11,12 @@ export const fetchUserList = () => {
       }));
     });
 };
+
+export const fetchUser = (index) => {
+  return axiosInstance()
+    .get(`/users/${index}`)
+    .then(({data}) => {
+      console.log(data);
+      return data;
+    });
+};

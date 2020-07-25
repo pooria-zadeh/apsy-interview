@@ -1,7 +1,8 @@
 import styled from 'styled-components/native';
-import {typography, color} from 'styled-system';
+import {typography, color, space} from 'styled-system';
 
 export const Text = styled.Text`
+  ${space};
   ${typography};
   ${color};
   ${(props) => props.light && `font-family:SFProText-Light`}

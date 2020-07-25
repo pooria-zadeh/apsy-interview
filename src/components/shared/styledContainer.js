@@ -32,3 +32,13 @@ export const IOSHeaderContainer = styled.View`
   ${flexbox};
   ${Platform.OS === 'ios' && `margin-top: ${getStatusBarHeight()}px;`};
 `;
+
+export const OverlayContainer = styled.View`
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  ${(props) => `background-color:${props.theme.colors.overlay}`};
+`;

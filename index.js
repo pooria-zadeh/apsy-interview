@@ -1,5 +1,5 @@
 import {Navigation} from 'react-native-navigation';
 
-import {pushTabScreen} from './src/navigation/navigations';
+import {pushAppToScreen} from './src/navigations/navigations';
 
-Navigation.events().registerAppLaunchedListener(pushTabScreen);
+Navigation.events().registerAppLaunchedListener(pushAppToScreen);
