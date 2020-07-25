@@ -27,7 +27,7 @@ const UserDetailScreen: React.FC<IProps> = ({id, componentId}) => {
         backButton: {
           color: '#fff',
         },
-        title: {text: 'MyApplication', color: '#FFF'},
+        title: {text: 'My Application', color: '#FFF'},
         background: {
           color: colors.primary[0],
           translucent: false,
